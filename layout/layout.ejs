@@ -1,0 +1,21 @@
+<%- partial('_partial/head') %>
+
+<body>
+<div class="loader">
+	<div class="spinner">
+	  <div class="rect1"></div>
+	  <div class="rect2"></div>
+	  <div class="rect3"></div>
+	  <div class="rect4"></div>
+	  <div class="rect5"></div>
+	</div>
+</div>
+  <header class="banner"><%- partial('_partial/header') %></header>
+  <section class="main">
+    <%- body %>
+    <div class="clearfix"></div>
+  </section>
+  <footer class="site-footer"><%- partial('_partial/footer') %></footer>
+  <%- partial('_partial/after_footer') %>
+</body>
+</html>
