@@ -1,4 +1,8 @@
 menu:
-  Hexo: http://zespia.tw/hexo/
+  主页: /
+  友链: /links
+  关于我: /about-me
+
+归档: /archives
 
 rss:

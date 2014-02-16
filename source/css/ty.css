@@ -70,7 +70,7 @@ hr {
 }
 
 .ty-basic hr:before {
-    content: "＊";
+    content: "*";
     font-size: 1rem;
     font-family: serif;
     opacity: 0.5;
